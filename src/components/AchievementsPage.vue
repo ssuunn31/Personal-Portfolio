@@ -33,7 +33,7 @@
                     <h4 class="des">BCSE Percentage - 86%</h4>
                     <p class="despara">Class XII - Ugyen Academy</p>
 
-                    <h4 class="des">CGPA - 8.0 (Till 3rd Semester)</h4>
+                    <h4 class="des">CGPA - 8.06</h4>
                     <p class="despara">Delhi Technological University</p>
                 </div>
             </div>
@@ -56,22 +56,55 @@
                         <li>
                             <p>National Level Golden Youth Awards Contestant representing Dagana District</p>
                         </li>
+                        <li>
+                            <p>Recipient of His Majesty's Certificate of Academic Excellence</p>
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div class="experience">
                 <button class="title3">Experiences</button>
-                <h3>Social Media Marketing Intern - MYeKIGAI</h3>
-                <h4>June 2023 - Sepetember 2023</h4>
-                <ul class="exp-list">
-                <li>
-                    <p>Managed all social media platforms of the company</p>
-                </li>
-                <li>
-                    <p>Guided the content writing team and graphic design team on the type of post and content to post</p>
-                </li>
-                </ul>
+
+                <div class="experience-1">
+                    <h3>Social Media Marketing Intern - MYeKIGAI</h3>
+                    <h4>June 2023 - Sepetember 2023</h4>
+                        <ul class="exp-list">
+                            <li>
+                                <p>Managed all social media platforms of the company</p>
+                            </li>
+                            <li>
+                                <p>Guided the content writing team and graphic design team on the 
+                                    type of post and content to post</p>
+                            </li>
+                            <li>
+                                <p>Came up with creative ideas for the company to post on their various
+                                    social media platforms
+                                </p>
+                            </li>
+                        </ul>
+                </div>
+                
+                <div class="experience-2">
+                    <h3>Web Developer Intern - DrukSmart</h3>
+                    <h4>June 2024 - July 2024</h4>
+                        <ul class="exp-list">
+                            <li>
+                                <p>Reinforced foundational knowledge of HTML, CSS and JavaScript by working
+                                    on diverse mini projects like registration forms, calculator and game 
+                                    applications, etc</p>
+                            </li>
+                            <li>
+                                <p>Designed a personal portfolio from scratch using various design tools like Canva. And then,
+                                    implemented my personal portfolio using te Vue.js framework
+                                </p>
+                            </li>
+                            <li>
+                                <p>Worked on one of the projects of the company. Created custom error pages and implemented them</p>
+                            </li>
+                        </ul>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -81,6 +114,12 @@
 </script>
 
 <style scoped>
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 .achievements {
     position: relative;
     margin-left: 70px;
@@ -117,7 +156,7 @@
 .Edu-Box {
     display:flex;
     gap: 190px;
-    justify-content: center;
+    
 }
 
 .year {
@@ -148,7 +187,7 @@
     border: none;
     border-radius: 20px;
     position: absolute;
-    left: 600px; 
+    left: 200px; 
     padding: 8px 11px; 
     width: 130px;
     height: 45px;
@@ -166,6 +205,7 @@
     height: 45px;
     font-weight: bold;
     margin-left: 140px;
+    margin-bottom: 8px;
 }
 
 h2 {
@@ -203,7 +243,21 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    gap: 85px;
+    gap: 120px;
+}
+
+.experience {
+    margin-top: -290px;
+    margin-bottom: 4vh;
+    padding-bottom: 0px;
+    margin-left: 200px;
+    margin-right: -200px;
+    max-width: 65%;
+    
+}
+
+.experience-2 {
+    margin-top: 40px;
 }
 
 .exp-list {
@@ -211,12 +265,8 @@ h4 {
     font-size: 19px;
     color: #534036;
     font-weight: 600;
-    max-width: 88%;
-    text-align: left;
-    align-items: left;
-    align-content: left;
+    max-width: 75%;
     padding: 0;
-    margin: 0;
 }
 
 .title2 {
@@ -237,13 +287,20 @@ h4 {
     margin-left: 200px; 
 }
 
+.activities {
+    padding: 0;
+    max-width: 100%;
+    margin-right: -250px;
+}
+
 .activities-list {
     color: #534036;
     line-height: 20px;
     font-size: 19px;
     font-style: roboto;
     font-weight: 600;
-    max-width: 88%;
+    max-width: 100%;
+    max-width: 700px;
     padding: 0;
     margin: 0;
 }

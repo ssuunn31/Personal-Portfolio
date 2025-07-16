@@ -8,7 +8,8 @@
             <router-link to="/contact" class="nav-link">Contact</router-link>
         </nav>
 
-        <button class="download-btn">Download CV</button>
+        <a href="https://drive.google.com/drive/u/0/folders/1jZhwZOI6_edm3CxuNT2fW4UwVISX00Xz" class="download-btn">Download CV</a>
+        
 
         <div class="body">
             <div class="port">
@@ -187,6 +188,8 @@
     height: 32px;
     text-decoration: underline;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-style: roboto;
+    font-weight: bold;
 }
 
 .download-btn:hover {

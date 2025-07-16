@@ -22,7 +22,7 @@
                     </div>
                     <div class="info">
                         <img src="@\assets\phone.png" class="options">
-                        <p>+975 17763035</p>
+                        <p>+975 17910330</p>
                     </div>
                 </div>
                 <div class="social-links">
@@ -32,7 +32,7 @@
                     <a href="https://github.com/settings/profile"><img src="@\assets\gh.png" class="social-icon"></a>
                 </div>
 
-                <a href="https://drive.google.com/file/d/1vjUWtBBBXJp0ZjLOd9GLVXduvVTkg8CX/view?usp=drive_link" target="_blank" class="download">Download CV</a>
+                <a href="https://drive.google.com/drive/u/0/folders/1jZhwZOI6_edm3CxuNT2fW4UwVISX00Xz" target="_blank" class="download">Download CV</a>
             </div>
 
             <div class="submit-container">

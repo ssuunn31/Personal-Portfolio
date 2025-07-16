@@ -17,13 +17,13 @@
                         <li>DOB : October 31, 2002</li>
                         <li>Nationality : Bhutanese</li>
                         <li>Address : Dagana, Bhutan</li>
-                        <li>Phone No : +975 17763035</li>
+                        <li>Phone No : +975 17910330</li>
                         <li>Email : gurungsanjana31@gmail.com</li>
                     </ul>
                 </div>
 
                 <div class="para">
-                    <p>I am a final year student in Delhi Technological University pursuing B.Tech in Mathematics and Computing Engineering. I am interested in developing interesting and fun websites.</p>
+                    <p>I am a recently graduated student from Delhi Technological University in B.Tech in Mathematics and Computing Engineering. I am interested in developing interesting and fun websites.</p>
                 </div>
             </div>
 
